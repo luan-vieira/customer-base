@@ -36,6 +36,10 @@ export const InputContainer = styled.div`
     color: var(--black);
     &::placeholder {
       color: var(--gray);
+      font-family: "Barlow";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
     }
   }
 

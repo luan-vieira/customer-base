@@ -11,6 +11,7 @@ function AppRoutes() {
       <Route path="/signup" element={<Signup />} />
       <Route path="/login" element={<Login />} />
       <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="*" element={<h1>404 Page not found</h1>} />
     </Routes>
   );
 }
